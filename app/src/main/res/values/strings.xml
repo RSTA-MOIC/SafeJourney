@@ -3,4 +3,11 @@
     <string name="for_safe_efficient">for safe, efficient and inclusive transport system</string>
     <string name="an_initiative_by">An Initiative By</string>
     <string name="developed_by_students_of">Developed by Students of</string>
+    <string name="don_t_have_an_account_register">Don\'t have an Account? Register</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="login">Login</string>
+    <string name="offline_services">Offline Services</string>
+    <string name="password">Password</string>
+    <string name="safe_journey">Safe Journey</string>
+    <string name="username_or_email_address">Username or Email Address</string>
 </resources>
