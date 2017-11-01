@@ -3,4 +3,8 @@
     <string name="for_safe_efficient">for safe, efficient and inclusive transport system</string>
     <string name="an_initiative_by">An Initiative By</string>
     <string name="developed_by_students_of">Developed by Students of</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="quest">Are you a Driver?</string>
+    <string name="agree">Agree to Terms,Conditions and Privacy Policy</string>
 </resources>
