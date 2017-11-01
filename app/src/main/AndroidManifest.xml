@@ -12,16 +12,21 @@
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.RUN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
+
         <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity android:name=".Home" >
@@ -30,12 +35,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Registry" >
-            <intent-filter>
-                <action android:name="android.intent.action.RUN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
+
         <activity android:name=".OfflineServices" >
             <intent-filter>
                 <action android:name="android.intent.action.RUN"/>
