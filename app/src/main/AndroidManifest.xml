@@ -8,8 +8,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/ThemeAppCompatLightNoActionBar">
         <activity android:name=".SplashScreen">
+=======
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+>>>>>>> 4f47935563e71e4bfdfb78c40b63d42a27b62ede
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
