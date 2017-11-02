@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:src="@mipmap/ic_launcher1"
+        android:src="@drawable/rstalogo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
@@ -58,7 +58,7 @@
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="#003399"
         android:text="@string/login"
         tools:textStyle="bold" />
 
@@ -70,6 +70,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/forgot_your_password"
+        android:textColor="#6600ff"
         android:textSize="18sp" />
 
     <TextView
@@ -80,16 +81,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
         android:text="@string/don_t_have_an_account_register"
+        android:textColor="#6600ff"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="150dp"
         android:layout_height="25dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="24dp"
         android:text="@string/offline_services"
-        android:textSize="18sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/imageView" />
+        android:textColor="#6600ff"
+        android:textSize="18sp" />
 
 </RelativeLayout>
