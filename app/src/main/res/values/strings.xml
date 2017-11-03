@@ -14,4 +14,7 @@
     <string name="yes">Yes</string>
     <string name="quest">Are you a Driver?</string>
     <string name="agree">Agree to Terms,Conditions and Privacy Policy</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="register">Register</string>
 </resources>
