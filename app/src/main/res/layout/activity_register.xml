@@ -105,7 +105,9 @@
         app:layout_constraintTop_toBottomOf="@+id/regPassword"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/regPassword" />
+        app:layout_constraintLeft_toLeftOf="@+id/regPassword"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintVertical_bias="0.0" />
 
     <RadioGroup
         android:id="@+id/regGenderGp"
@@ -116,19 +118,20 @@
         android:layout_marginTop="54dp"
         app:layout_constraintTop_toBottomOf="@+id/regPassword"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regAgeEnter">
+        app:layout_constraintLeft_toLeftOf="@+id/regAgeEnter"
+        android:checkedButton="@+id/regGender1">
 
         <RadioButton
-            android:id="@+id/regGender"
+            android:id="@+id/regGender1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Male" />
+            android:text="@string/male" />
 
         <RadioButton
             android:id="@+id/regGender2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Female" />
+            android:text="@string/female" />
     </RadioGroup>
 
     <TextView
@@ -151,7 +154,7 @@
     <RadioGroup
         android:id="@+id/regDriverGp"
         android:layout_width="110dp"
-        android:layout_height="0dp"
+        android:layout_height="30dp"
         android:layout_marginStart="26dp"
         android:orientation="horizontal"
         tools:layout_constraintTop_creator="1"
@@ -159,23 +162,22 @@
         app:layout_constraintBottom_toBottomOf="@+id/regDriverQ"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintTop_toTopOf="@+id/regDriverQ"
-        app:layout_constraintLeft_toRightOf="@+id/regGenderGp">
+        app:layout_constraintLeft_toRightOf="@+id/regGenderGp"
+        android:checkedButton="@+id/regDriverA2">
 
         <RadioButton
             android:id="@+id/regDriverA1"
             android:layout_width="55dp"
             android:layout_height="30dp"
-            android:onClick="onRadioButtonClicked"
             android:text="@string/yes" />
 
         <RadioButton
             android:id="@+id/regDriverA2"
-            android:layout_width="50dp"
+            android:layout_width="55dp"
             android:layout_height="30dp"
-            android:onClick="onRadioButtonClicked"
+
             android:text="@string/no" />
     </RadioGroup>
-
 
     <CheckBox
         android:id="@+id/regAgree"
@@ -196,7 +198,6 @@
         android:layout_height="45dp"
         android:layout_marginStart="49dp"
         android:clickable="true"
-        android:onClick="http://rsta.gov.bt/rstaweb/"
         android:text="@string/agree"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
@@ -215,7 +216,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
-        android:text="Register"
+        android:text="@string/register"
         android:textColor="@color/white"
         android:layout_marginStart="69dp"
         tools:layout_constraintBottom_creator="1"
