@@ -79,6 +79,7 @@
         android:layout_height="25dp"
         android:layout_above="@+id/textView3"
         android:layout_centerHorizontal="true"
+        android:onClick=".Register"
         android:layout_marginBottom="26dp"
         android:text="@string/don_t_have_an_account_register"
         android:textColor="#6600ff"
