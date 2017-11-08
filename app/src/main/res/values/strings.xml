@@ -14,11 +14,9 @@
     <string name="yes">Yes</string>
     <string name="quest">Are you a Driver?</string>
     <string name="agree">Agree to Terms,Conditions and Privacy Policy</string>
-<<<<<<< HEAD
     <string name="female">Female</string>
     <string name="male">Male</string>
     <string name="register">Register</string>
-=======
     <string name="title_activity_home">Home</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -129,5 +127,4 @@
     <string name="notifications">Notification</string>
     <string name="settings">Setting</string>
     <string name="textview">TextView</string>
->>>>>>> origin/home
 </resources>
