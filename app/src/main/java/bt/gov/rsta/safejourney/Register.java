@@ -14,10 +14,8 @@ import android.widget.EditText;
 import android.widget.Button;
 import android.os.Bundle;
 import android.view.View;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,7 +27,7 @@ public class Register extends AppCompatActivity {
     private RadioGroup gender,driver;
     String genderSend,driverSend;
     private RequestQueue requestQueue;
-    private static final String URL="http://localhost/SafeJourney/android/register.php";
+    private static final String URL="http://127.0.0.1/SafeJourney/android/register.php";
     private StringRequest request;
 
     @Override
@@ -41,6 +39,7 @@ public class Register extends AppCompatActivity {
         phone=(EditText) findViewById(R.id.regPhone);
         email=(EditText) findViewById(R.id.regEmail);
         password=(EditText) findViewById(R.id.regPassword);
+        age=(EditText) findViewById(R.id.regAgeEnter);
 
         gender= (RadioGroup) findViewById(R.id.regGenderGp);
         int radioButtonID = gender.getCheckedRadioButtonId();
@@ -49,12 +48,12 @@ public class Register extends AppCompatActivity {
 
         driver= (RadioGroup) findViewById(R.id.regDriverGp);
         int driverSelected = driver.getCheckedRadioButtonId();
-        RadioButton rb = (RadioButton) driver.findViewById(radioButtonID);
-        String temp = (String) rb.getText();
-        if(temp=="Yes")
-            driverSend="1";
-        else
-            driverSend="0";
+        RadioButton rb = (RadioButton) driver.findViewById(driverSelected);
+        driverSend = (String) rb.getText();
+        //if(temp.equals("Yes"))
+          //  driverSend="1";
+       // else
+            //driverSend="0";
 
         register=(Button) findViewById(R.id.regButton);
 
