@@ -9,11 +9,10 @@
     <string name="offline_services">Offline Services</string>
     <string name="password">Password</string>
     <string name="safe_journey">Safe Journey</string>
-    <string name="username_or_email_address">Username or Email Address</string>
+    <string name="username_or_email_address">Username or email Address</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
-    <string name="quest">Are you a Driver?</string>
-    <string name="agree">Agree to Terms,Conditions and Privacy Policy</string>
+    <string name="quest">Do you have a driving licence?</string>
     <string name="female">Female</string>
     <string name="male">Male</string>
     <string name="register">Register</string>

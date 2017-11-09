@@ -58,7 +58,7 @@
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="#003399"
+        android:background="#0033aa"
         android:text="@string/login"
         tools:textStyle="bold" />
 
@@ -77,12 +77,11 @@
         android:id="@+id/textView2"
         android:layout_width="280dp"
         android:layout_height="25dp"
-        android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp"
         android:text="@string/don_t_have_an_account_register"
         android:textColor="#6600ff"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView3"
