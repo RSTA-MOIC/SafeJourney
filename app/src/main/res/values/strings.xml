@@ -128,4 +128,8 @@
     <string name="textview">TextView</string>
     <string name="reg_sucess">You have been sucessfully registered for the RSTA: Safe Journey application!</string>
     <string name="click_here">Click Here to Login</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="e_mail">e-mail</string>
+    <string name="age">Age</string>
 </resources>
