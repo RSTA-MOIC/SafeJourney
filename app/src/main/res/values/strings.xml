@@ -126,4 +126,6 @@
     <string name="notifications">Notification</string>
     <string name="settings">Setting</string>
     <string name="textview">TextView</string>
+    <string name="reg_sucess">You have been sucessfully registered for the RSTA: Safe Journey application!</string>
+    <string name="click_here">Click Here to Login</string>
 </resources>
