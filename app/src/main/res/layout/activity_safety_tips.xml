@@ -1,46 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="bt.gov.rsta.safejourney.SafetyTips">
+<?xml version="1.0" encoding="utf-8" ?>
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/app_bar"
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
-        android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent">
 
-        <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/toolbar_layout"
+
+        <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            android:layout_height="match_parent">
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/AppTheme.PopupOverlay" />
+                android:layout_height="match_parent" >
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#52D017"
+                    android:padding="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""
+                    android:scaleType="centerInside"
+                    android:src="@drawable/pedes"
+                    />
 
-        </android.support.design.widget.CollapsingToolbarLayout>
-    </android.support.design.widget.AppBarLayout>
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="-90dp"
+                    android:layout_marginBottom="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="PEDESTRIAN" />
 
-   <!-- <include layout="@layout/content_safety_tips" />-->
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#52D017"
+                    android:padding="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bicycle"
+                     />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-</android.support.design.widget.CoordinatorLayout>
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="-90dp"
+                    android:layout_marginBottom="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="BICYCLE" />
+
+
+            </TableRow>>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                    android:background="#52D017"
+                    android:padding="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="centerInside"
+                android:src="@drawable/scooter"
+                 />
+
+                <EditText
+                    android:id="@+id/editText03"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="-90dp"
+                    android:layout_marginBottom="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="TWO WHEELER" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="#52D017"
+                    android:padding="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="20dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""
+                    android:scaleType="centerInside"
+                    android:src="@drawable/car"
+                    />
+
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="-110dp"
+                    android:layout_marginBottom="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="FOUR WHEELER" /></TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+
+
