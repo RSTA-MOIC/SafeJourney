@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -22,11 +23,14 @@
         <TextView
             android:id="@+id/lblListHeader2"
             android:layout_width="wrap_content"
-            android:text="@string/fracture"
             android:layout_height="wrap_content"
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textSize="30sp"
-            android:textColor="#000" />
+            android:paddingTop="30"
+            android:text="@string/fracture"
+            android:textAlignment="@android:center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="italic"/>
     </TableRow>
 
     <TableRow
@@ -45,8 +49,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textSize="17dp"
-            android:textColor="#f9f93d" />
+            android:paddingTop="30"
+            android:textColor="#000"
+            android:textSize="25sp"
+            tools:text="Bodyache"
+            android:textStyle="italic"/>
     </TableRow>
 
     <TableRow
@@ -65,8 +72,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textSize="17dp"
-            android:textColor="#f9f93d" />
+            android:paddingTop="30"
+            android:textColor="#000"
+            android:textSize="25sp"
+            tools:text="Cut"
+            android:textStyle="italic"/>
     </TableRow>
 
     <TableRow
@@ -85,8 +95,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textSize="17dp"
-            android:textColor="#f9f93d" />
+            android:paddingTop="30"
+            android:textColor="#000"
+            android:textSize="25sp"
+            tools:text="Not Breathing"
+            android:textStyle="italic"/>
     </TableRow>
 
     <TableRow
@@ -105,8 +118,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textSize="17dp"
-            android:textColor="#f9f93d" />
+            android:paddingTop="30"
+            android:textColor="#000"
+            android:textSize="25sp"
+            tools:text="Dizzy"
+            android:textStyle="italic" />
     </TableRow>
 
 </LinearLayout>
