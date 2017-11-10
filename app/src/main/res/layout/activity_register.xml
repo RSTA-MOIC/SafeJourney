@@ -31,66 +31,66 @@
                 android:layout_width="wrap_content"
 
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/register"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/regName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Name"
+                android:hint="@string/name"
                 android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/regPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Phone Number"
+                android:hint="@string/phone_number"
                 android:inputType="phone" />
 
             <EditText
                 android:id="@+id/regEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="e-mail"
+                android:hint="@string/e_mail"
                 android:inputType="textEmailAddress" />
 
             <EditText
                 android:id="@+id/regPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
 
             <EditText
                 android:id="@+id/regAgeEnter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Age"
+                android:hint="@string/age"
                 android:inputType="number" />
 
             <RadioGroup
                 android:id="@+id/regGenderGp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:checkedButton="@+id/regGender1"
                 android:orientation="horizontal">
@@ -112,16 +112,16 @@
                 android:id="@+id/regDriverQ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/quest"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <RadioGroup
                 android:id="@+id/regDriverGp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:checkedButton="@+id/regDriverA1"
                 android:orientation="horizontal">
@@ -134,8 +134,8 @@
 
                 <RadioButton
                     android:id="@+id/regDriverA2"
-                    android:layout_width="55dp"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="@string/no" />
             </RadioGroup>
             <Button
@@ -143,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:backgroundTint="@color/colorPrimary"
                 android:text="@string/register"
                 android:textColor="@color/white"

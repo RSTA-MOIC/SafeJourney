@@ -36,7 +36,7 @@ public class Register extends AppCompatActivity {
     String genderSend, driverSend;
     private Button register;
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.43.16/SafeJourney/android/register.php";
+    private static final String URL = "http://10.0.2.2/SafeJourney/android/register.php";
     private StringRequest request;
 
     @Override
