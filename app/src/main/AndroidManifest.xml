@@ -23,11 +23,17 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".Register" />
         <activity android:name=".OfflineServices" />
         <activity android:name=".PasswordReset" />
         <activity
             android:name=".Home"
+            android:label="@string/title_activity_home"/>
+        <activity android:name=".Home1"/>
+        <activity android:name=".Profile"/>
+        <activity android:name=".Notification"/>
+        <activity android:name=".Setting"/>
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
         <activity android:name=".Home1" />
