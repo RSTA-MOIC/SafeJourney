@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableLayout
+            android:id="@+id/layout_pinlock_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/bone2"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Fracture"
+                    android:layout_margin="40dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/ache"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Bodyache"
+                    android:layout_margin="30dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/cpr"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Breathing \n Problem"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/cut"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    tools:text="Cuts and \n Wounds" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/dizzy"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Dizzy"
+                    android:layout_margin="30dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
