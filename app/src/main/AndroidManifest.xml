@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bt.gov.rsta.safejourney">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -31,7 +30,7 @@
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Home1"/>
+        <activity android:name=".Home1" />
         <activity android:name=".Complaint" />
         <activity
             android:name=".FirstAids"
@@ -41,7 +40,8 @@
             android:name=".SafetyTips"
             android:label="@string/title_activity_safety_tips"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TrafficOffences"/>
+        <activity android:name=".TrafficOffences" />
+        <activity android:name=".Emergency"></activity>
     </application>
 
 </manifest>
