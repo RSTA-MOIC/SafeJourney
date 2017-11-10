@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bt.gov.rsta.safejourney">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher1"
@@ -14,10 +16,10 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -32,6 +34,9 @@
         <activity android:name=".Profile"/>
         <activity android:name=".Notification"/>
         <activity android:name=".Setting"/>
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Home1" />
         <activity
             android:name=".Emergency"
             android:label="@string/title_activity_emergency"
@@ -45,7 +50,8 @@
             android:name=".SafetyTips"
             android:label="@string/title_activity_safety_tips"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TrafficOffences"/>
+        <activity android:name=".TrafficOffences" />
+        <activity android:name=".RegisterSuccess" android:label="Register Success"/>
     </application>
 
 </manifest>

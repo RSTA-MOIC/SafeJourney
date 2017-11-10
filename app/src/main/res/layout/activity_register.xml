@@ -1,231 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/regBackground"
-    tools:context="bt.gov.rsta.safejourney.Register"
-    tools:layout_editor_absoluteY="25dp"
-    tools:layout_editor_absoluteX="0dp">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/regHead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regName"
-        app:layout_constraintTop_toTopOf="parent" />
-    <EditText
-        android:id="@+id/regName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="250dp"
-        android:height="20dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/regPhone"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/regHead"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regPhone" />
-
-    <EditText
-        android:id="@+id/regPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:height="20dp"
-        android:width="250dp"
-        android:hint="Phone Number"
-        android:inputType="phone"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/regEmail"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/regName"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regEmail" />
-
-    <EditText
-        android:id="@+id/regEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:height="20dp"
-        android:width="250dp"
-        android:ems="10"
-        android:hint="e-mail"
-        android:inputType="textEmailAddress"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/regPassword"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/regPhone"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regPassword" />
-
-    <EditText
-        android:id="@+id/regPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="250dp"
-        android:height="20dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/regEmail"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
-
-
-
-    <EditText
-        android:id="@+id/regAgeEnter"
-        android:layout_width="141dp"
+    <ScrollView
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:height="20dp"
-        android:ems="10"
-        android:hint="Age"
-        android:inputType="number"
         tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/regGenderGp"
-        android:layout_marginTop="9dp"
-        app:layout_constraintTop_toBottomOf="@+id/regPassword"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/regPassword" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <RadioGroup
-        android:id="@+id/regGenderGp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="54dp"
-        app:layout_constraintTop_toBottomOf="@+id/regPassword"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regAgeEnter">
-
-        <RadioButton
-            android:id="@+id/regGender"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Male" />
+            android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/regGender2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female" />
-    </RadioGroup>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
 
-    <TextView
-        android:id="@+id/regDriverQ"
-        android:layout_width="0dp"
-        android:layout_height="31dp"
-        android:text="@string/quest"
-        android:textSize="18dp"
-        android:layout_marginEnd="7dp"
-        app:layout_constraintRight_toLeftOf="@+id/regDriverGp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/regDrivQ"
-        android:layout_marginTop="63dp"
-        app:layout_constraintTop_toBottomOf="@+id/regAgeEnter"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="63dp"
-        app:layout_constraintLeft_toLeftOf="@+id/regAgree" />
-    <RadioGroup
-        android:id="@+id/regDriverGp"
-        android:layout_width="110dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="26dp"
-        android:orientation="horizontal"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/regDriverQ"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintTop_toTopOf="@+id/regDriverQ"
-        app:layout_constraintLeft_toRightOf="@+id/regGenderGp">
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/register"
+                android:textSize="15sp" />
 
-        <RadioButton
-            android:id="@+id/regDriverA1"
-            android:layout_width="55dp"
-            android:layout_height="30dp"
-            android:onClick="onRadioButtonClicked"
-            android:text="@string/yes" />
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
 
-        <RadioButton
-            android:id="@+id/regDriverA2"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:onClick="onRadioButtonClicked"
-            android:text="@string/no" />
-    </RadioGroup>
+            <EditText
+                android:id="@+id/regPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="phone" />
 
+            <EditText
+                android:id="@+id/regEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/e_mail"
+                android:inputType="textEmailAddress" />
 
-    <CheckBox
-        android:id="@+id/regAgree"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintRight_toLeftOf="@+id/regButton"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/regDrivQ"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/regGenderGp"
-        app:layout_constraintTop_toTopOf="@+id/regDrivQ" />
+            <EditText
+                android:id="@+id/regPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
 
-    <TextView
-        android:id="@+id/regDrivQ"
-        android:layout_width="0dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="49dp"
-        android:clickable="true"
-        android:onClick="http://rsta.gov.bt/rstaweb/"
-        android:text="@string/agree"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/regButton"
-        android:layout_marginEnd="39dp"
-        app:layout_constraintRight_toRightOf="@+id/regDriverGp"
-        android:layout_marginTop="72dp"
-        app:layout_constraintTop_toBottomOf="@+id/regGenderGp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="72dp"
-        app:layout_constraintLeft_toLeftOf="@+id/regAgree" />
+            <EditText
+                android:id="@+id/regAgeEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="number" />
 
-    <Button
-        android:id="@+id/regButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="Register"
-        android:textColor="@color/white"
-        android:layout_marginStart="69dp"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="49dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+            <RadioGroup
+                android:id="@+id/regGenderGp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:checkedButton="@+id/regGender1"
+                android:orientation="horizontal">
 
+                <RadioButton
+                    android:id="@+id/regGender1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male" />
 
+                <RadioButton
+                    android:id="@+id/regGender2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+            </RadioGroup>
 
+            <TextView
+                android:id="@+id/regDriverQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/quest"
+                android:textSize="20sp" />
 
+            <RadioGroup
+                android:id="@+id/regDriverGp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:checkedButton="@+id/regDriverA1"
+                android:orientation="horizontal">
 
+                <RadioButton
+                    android:id="@+id/regDriverA1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/regDriverA2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/regButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/register"
+                android:textColor="@color/white"
+>
+            </Button>
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

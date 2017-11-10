@@ -12,6 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.StringRequest;
+
 public class MainActivity extends AppCompatActivity {
 
     Button button;
@@ -19,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
     ImageView img;
     TextView txt1, txt2, txt3, txt4;
     int counter = 3;
+    private RequestQueue requestQueue;
+    private static final String URL = "http://192.137.43.1/SafeJourney/android/register.php";
+    private StringRequest request;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         txt2 = (TextView)findViewById(R.id.textView1);
         txt3 = (TextView)findViewById(R.id.textView2);
         txt4 = (TextView)findViewById(R.id.textView3);
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
