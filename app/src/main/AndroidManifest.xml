@@ -51,9 +51,8 @@
 
             android:name=".RegisterSuccess"
             android:label="Register Success" />
-        <activity android:name=".FirstAid" />
-
-            android:name=".FirstAids"
+        <activity
+            android:name=".FirstAid"
             android:label="@string/title_activity_first_aids"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -62,6 +61,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
 
+        <activity android:name=".Fracture"/>
     </application>
 
 </manifest>
