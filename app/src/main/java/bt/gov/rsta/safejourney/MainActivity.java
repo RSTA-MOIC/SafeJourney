@@ -12,18 +12,28 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
-    EditText edit1, edit2;
+    Button loginButton;
+    EditText email, password;
     ImageView img;
     TextView txt1, txt2, txt3, txt4;
     int counter = 3;
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.137.43.1/SafeJourney/android/register.php";
+    private static final String URL = "http://192.137.43.1/SafeJourney/android/login.php";
     private StringRequest request;
 
     @Override
@@ -32,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Context context1 = this, context2 = this, context3 = this, context4 = this;
-        button =  (Button)findViewById(R.id.button);
-        edit1 = (EditText)findViewById(R.id.editText);
-        edit2 = (EditText)findViewById(R.id.editText2);
+        loginButton =  (Button)findViewById(R.id.button);
+        email = (EditText)findViewById(R.id.loginEmail);
+        password = (EditText)findViewById(R.id.loginPassword);
         img = (ImageView)findViewById(R.id.imageView);
         txt1 = (TextView)findViewById(R.id.textView);
         txt2 = (TextView)findViewById(R.id.textView1);
@@ -42,21 +52,50 @@ public class MainActivity extends AppCompatActivity {
         txt4 = (TextView)findViewById(R.id.textView3);
 
 
-        button.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                if(edit1.getText().toString().equals("karma") && edit2.getText().toString().equals("nakama4avr")){
-                    Toast.makeText(getApplicationContext(), "Redirecting....", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(context1, Home.class);
-                    startActivity(intent1);
-                }
-                else{
-                    Toast.makeText(getApplicationContext(), "Credentials", Toast.LENGTH_SHORT).show();
+                request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject jsonobject = new JSONObject(response);
+                            if (jsonobject.names().get(0).equals("error")) {
+                                /*register.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        Intent intent1 = new Intent(contexRegister, RegisterSuccess.class);
+                                        startActivity(intent1);
+                                    }
+                                });*/
+                                Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                            }
+                            else{
 
-                    if(counter == 0){
-                        button.setEnabled(false);
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                     }
-                }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                }) {
+                    @Override
+                    protected Map<String, String> getParams() throws AuthFailureError {
+                        HashMap<String, String> hashMap = new HashMap<String, String>();
+
+
+                        hashMap.put("email", email.getText().toString());
+                        hashMap.put("password", password.getText().toString());
+
+                        return hashMap;
+                    }
+                };
+                requestQueue.add(request);
             }
         });
 

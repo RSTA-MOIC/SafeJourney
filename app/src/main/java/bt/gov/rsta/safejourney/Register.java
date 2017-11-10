@@ -84,7 +84,7 @@ public class Register extends AppCompatActivity {
                                         startActivity(intent1);
                                     }
                                 });*/
-                                //Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(getApplication(),RegisterSuccess.class));
                             }
                             else{
