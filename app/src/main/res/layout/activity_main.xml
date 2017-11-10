@@ -97,7 +97,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/forgot_your_password"
-                android:textColor="#6600ff"
+                android:textColor="#be5284ea"
                 android:textSize="15sp" />
 
             <TextView
@@ -107,7 +107,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_gravity="center"
                 android:text="@string/don_t_have_an_account_register"
-                android:textColor="#6600ff"
+                android:textColor="#a16bf4"
                 android:textSize="16sp" />
 
             <TextView
@@ -117,7 +117,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/offline_services"
-                android:textColor="#6600ff"
+                android:textColor="#a16bf4"
                 android:textSize="18sp" />
 
         </LinearLayout>
