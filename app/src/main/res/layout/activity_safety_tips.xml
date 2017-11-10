@@ -9,6 +9,8 @@
     tools:context="bt.gov.rsta.safejourney.Saftytips">
 
 
+
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="368dp"
         android:layout_height="495dp"

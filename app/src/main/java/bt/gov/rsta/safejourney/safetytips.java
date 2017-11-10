@@ -42,13 +42,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Context context1 = this, context2 = this, context3 = this, context4 = this;
-        loginButton =  (Button)findViewById(R.id.button);
-        email = (EditText)findViewById(R.id.loginEmail);
-        password = (EditText)findViewById(R.id.loginPassword);
-        img = (ImageView)findViewById(R.id.imageView);
-        txt1 = (TextView)findViewById(R.id.textView);
-        txt2 = (TextView)findViewById(R.id.textView1);
-        txt3 = (TextView)findViewById(R.id.textView2);
+
+        imageView = (ImageView)findViewById(R.id.imageView);
+        imageView02 = (TextView)findViewById(R.id.textView);
+        imageView3 = (TextView)findViewById(R.id.textView1);
+        imageView4 = (TextView)findViewById(R.id.textView2);
         txt4 = (TextView)findViewById(R.id.textView3);
 
         requestQueue = Volley.newRequestQueue(this);
