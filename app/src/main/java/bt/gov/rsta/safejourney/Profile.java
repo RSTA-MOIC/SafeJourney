@@ -20,7 +20,7 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstaneState);
         setContentView(R.layout.activity_profile);
 
-        TextView tView1 = (TextView) findViewById(R.id.textTitle4);
+        TextView tView1 = (TextView) findViewById(R.id.textTitle2);
         tView1.setText("This is My Profile");
 
         BottomNavigationView bottomNavigationView_Bar = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
