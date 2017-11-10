@@ -18,6 +18,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,9 +32,8 @@ public class MainActivity extends AppCompatActivity {
     EditText email, password;
     ImageView img;
     TextView txt1, txt2, txt3, txt4;
-    int counter = 3;
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.137.43.1/SafeJourney/android/login.php";
+    private static final String URL = "http://10.0.2.2/SafeJourney/android/login.php";
     private StringRequest request;
 
     @Override
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         txt3 = (TextView)findViewById(R.id.textView2);
         txt4 = (TextView)findViewById(R.id.textView3);
 
-
+        requestQueue = Volley.newRequestQueue(this);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
@@ -60,20 +60,24 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         try {
                             JSONObject jsonobject = new JSONObject(response);
-                            if (jsonobject.names().get(0).equals("error")) {
-                                /*register.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View view) {
-                                        Intent intent1 = new Intent(contexRegister, RegisterSuccess.class);
-                                        startActivity(intent1);
-                                    }
-                                });*/
+                            if (jsonobject.names().get(0).equals("success")) {
+
                                 Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(getApplication(),RegisterSuccess.class));
                             }
-                            else{
+                            /*else{
+                                if (jsonobject.names().get(0).equals("loginFail")) {
 
-                            }
+                                    Toast.makeText(getApplicationContext(),jsonobject.getString("loginFail"),Toast.LENGTH_LONG).show();
+                                    startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                }
+                                if (jsonobject.names().get(0).equals("paramMissing")) {
+
+                                    Toast.makeText(getApplicationContext(),jsonobject.getString("paramMissing"),Toast.LENGTH_LONG).show();
+                                    startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                }
+
+                            }*/
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -81,21 +85,17 @@ public class MainActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
                     }
                 }) {
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
                         HashMap<String, String> hashMap = new HashMap<String, String>();
-
-
                         hashMap.put("email", email.getText().toString());
                         hashMap.put("password", password.getText().toString());
 
                         return hashMap;
                     }
-                };
-                requestQueue.add(request);
+                };requestQueue.add(request);
             }
         });
 

@@ -60,10 +60,6 @@ public class Register extends AppCompatActivity {
         int driverSelected = driver.getCheckedRadioButtonId();
         RadioButton rb = (RadioButton) driver.findViewById(driverSelected);
         driverSend = (String) rb.getText();
-        //if(temp.equals("Yes"))
-        //  driverSend="1";
-        // else
-        //driverSend="0";
 
         register = (Button) findViewById(R.id.regButton);
 
@@ -76,19 +72,19 @@ public class Register extends AppCompatActivity {
                     public void onResponse(String response) {
                         try {
                             JSONObject jsonobject = new JSONObject(response);
-                            if (jsonobject.names().get(0).equals("error")) {
-                                /*register.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View view) {
-                                        Intent intent1 = new Intent(contexRegister, RegisterSuccess.class);
-                                        startActivity(intent1);
-                                    }
-                                });*/
+                            if (jsonobject.names().get(0).equals("success")) {
                                 Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(getApplication(),RegisterSuccess.class));
                             }
                             else{
-
+                                if (jsonobject.names().get(0).equals("missingParam")) {
+                                    Toast.makeText(getApplicationContext(),jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                    //startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                }
+                                if (jsonobject.names().get(0).equals("dataError")) {
+                                    Toast.makeText(getApplicationContext(),jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                    //startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                }
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

@@ -46,10 +46,6 @@
             android:name=".FirstAids"
             android:label="@string/title_activity_first_aids"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SafetyTips"
-            android:label="@string/title_activity_safety_tips"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TrafficOffences" />
         <activity android:name=".RegisterSuccess" android:label="Register Success"/>
     </application>
