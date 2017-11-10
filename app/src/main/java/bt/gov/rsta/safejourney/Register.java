@@ -77,14 +77,14 @@ public class Register extends AppCompatActivity {
                                 startActivity(new Intent(getApplication(),RegisterSuccess.class));
                             }
                             else{
-                                if (jsonobject.names().get(0).equals("missingParam")) {
+                                //if (jsonobject.names().get(0).equals("missingParam")) {
+                                   // Toast.makeText(getApplicationContext(),jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                    //startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                //}
+                                //if (jsonobject.names().get(0).equals("dataError")) {
                                     Toast.makeText(getApplicationContext(),jsonobject.getString("name"),Toast.LENGTH_LONG).show();
                                     //startActivity(new Intent(getApplication(),RegisterSuccess.class));
-                                }
-                                if (jsonobject.names().get(0).equals("dataError")) {
-                                    Toast.makeText(getApplicationContext(),jsonobject.getString("name"),Toast.LENGTH_LONG).show();
-                                    //startActivity(new Intent(getApplication(),RegisterSuccess.class));
-                                }
+                               // }
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
