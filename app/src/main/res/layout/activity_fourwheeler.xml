@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="bt.gov.rsta.safejourney.FOURWHEELER">
+
     <ScrollView
         android:layout_width="368dp"
         android:layout_height="551dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,16 +23,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:textSize="20sp"
-                android:text="FOUR_WHEELER" />
+                android:text="FOUR_WHEELER"
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#f3ff3300"
                 android:layout_marginBottom="20dp"
-                android:textSize="20sp"
-                android:text="DO's" />
+                android:text="DO's"
+                android:textColor="#f3ff3300"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -46,17 +48,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
+                android:text="DONT'S"
                 android:textColor="#f3ff3300"
-                android:textSize="20sp"
-                android:text="DONT'S" />
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="436dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:textSize="20sp"
+                android:layout_weight="0.85"
                 android:text="@string/four1"
-                android:layout_weight="0.85" />
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 
