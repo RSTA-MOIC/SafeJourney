@@ -196,18 +196,16 @@
     </string>
 
 
-
-
     <string name="ambulance">Ambulance</string>
 
 
-
-    <string name = "bonef">
+    <string name="bonef">
         A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
     </string>
     <string name="enter_your_email">Please enter your email below</string>
     <string name="email_reset">You will recieve an email\nwith instructions to reset your password</string>
     <string name="submit">Submit</string>
+    <string name="_112">112</string>
 
 </resources>
 
