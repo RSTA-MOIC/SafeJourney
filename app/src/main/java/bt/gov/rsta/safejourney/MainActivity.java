@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView img;
     TextView txt1, txt2, txt3, txt4;
     private RequestQueue requestQueue;
-    private static final String URL = "http://10.0.2.2/SafeJourney/android/login.php";
+    private static final String URL = "http://172.23.23.161/SafeJourney/android/login.php";
     private StringRequest request;
 
     @Override
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject jsonobject = new JSONObject(response);
                             if (jsonobject.names().get(0).equals("success")) {
                                 Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("success"),Toast.LENGTH_LONG).show();
-                                startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                startActivity(new Intent(getApplication(),Home.class));
                             }
                             if(jsonobject.has("loginFail")){
                                 Toast.makeText(getApplicationContext(),""+jsonobject.getString("loginFail"),Toast.LENGTH_LONG).show();

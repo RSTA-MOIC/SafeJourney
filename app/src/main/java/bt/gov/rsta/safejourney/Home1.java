@@ -33,6 +33,7 @@ public class Home1 extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.navigation_home:
+                        Intent intent1 = new Intent(Home1.this, Home.class);
                         break;
 
                     case R.id.navigation_profile:

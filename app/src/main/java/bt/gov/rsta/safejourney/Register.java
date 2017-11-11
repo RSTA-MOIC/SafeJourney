@@ -36,7 +36,7 @@ public class Register extends AppCompatActivity {
     String genderSend, driverSend;
     private Button register;
     private RequestQueue requestQueue;
-    private static final String URL = "http://10.0.2.2/SafeJourney/android/register.php";
+    private static final String URL = "http://172.23.23.161/SafeJourney/android/register.php";
     private StringRequest request;
 
     @Override
@@ -67,7 +67,7 @@ public class Register extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(name.length()==0 || phone.length()==0 || email.length()==0 || password.length()==0 || age.length()==0 || phone.length() >=8 || password.length()==6){
+                if(name.length()==0 || phone.length()==0 || email.length()==0 || password.length()==0 || age.length()==0 || phone.length() !=8 || password.length()>=6){
                     Toast.makeText(getApplicationContext(),"Please fill all fields and press register",Toast.LENGTH_LONG).show();
                 }else{
                     request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
