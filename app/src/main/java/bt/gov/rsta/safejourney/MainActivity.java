@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject jsonobject = new JSONObject(response);
                             if (jsonobject.names().get(0).equals("success")) {
                                 Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("success"),Toast.LENGTH_LONG).show();
-                                startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                startActivity(new Intent(getApplication(),Home.class));
                             }
                             if(jsonobject.has("loginFail")){
                                 Toast.makeText(getApplicationContext(),""+jsonobject.getString("loginFail"),Toast.LENGTH_LONG).show();
