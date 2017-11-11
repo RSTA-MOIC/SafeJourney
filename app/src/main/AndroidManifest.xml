@@ -45,7 +45,11 @@
         <activity
             android:name=".RegisterSuccess"
             android:label="Register Success" />
-        <activity android:name=".FirstAid"></activity>
+        <activity android:name=".FirstAid" />
+        <activity android:name=".Pedestrian" />
+        <activity android:name=".Bicycle" />
+        <activity android:name=".FOURWHEELER" />
+        <activity android:name=".TWO_WHLEER"></activity>
     </application>
 
 </manifest>
