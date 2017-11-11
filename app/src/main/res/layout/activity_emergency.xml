@@ -49,7 +49,7 @@
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="italic"
-                    tools:text="Ambulance" />
+                    tools:text="ambulance" />
 
 
                 <TextView

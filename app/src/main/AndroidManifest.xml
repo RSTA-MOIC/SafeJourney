@@ -52,16 +52,11 @@
         <activity android:name=".Pedestrian" />
         <activity android:name=".Bicycle" />
         <activity android:name=".FOURWHEELER" />
-<<<<<<< HEAD
         <activity android:name=".TWO_WHLEER">
 
         </activity>
-
-=======
-        <activity android:name=".TWO_WHLEER"></activity>
-        <activity android:name=".Fracture" />
         <activity android:name=".Ambulance"></activity>
->>>>>>> 4ed89f414071dbb773d4b3e88ea35cd472f30b76
+
     </application>
 
 </manifest>
