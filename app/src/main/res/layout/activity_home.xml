@@ -62,6 +62,7 @@
                 android:background="@drawable/white_grey_border_top"
                 app:menu="@menu/navigation">
 
+
             </android.support.design.widget.BottomNavigationView>
 
         </RelativeLayout>

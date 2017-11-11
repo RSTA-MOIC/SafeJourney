@@ -60,10 +60,6 @@ public class Register extends AppCompatActivity {
         int driverSelected = driver.getCheckedRadioButtonId();
         RadioButton rb = (RadioButton) driver.findViewById(driverSelected);
         driverSend = (String) rb.getText();
-        //if(temp.equals("Yes"))
-        //  driverSend="1";
-        // else
-        //driverSend="0";
 
         register = (Button) findViewById(R.id.regButton);
 
@@ -71,54 +67,54 @@ public class Register extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONObject jsonobject = new JSONObject(response);
-                            if (jsonobject.names().get(0).equals("error")) {
-                                /*register.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View view) {
-                                        Intent intent1 = new Intent(contexRegister, RegisterSuccess.class);
-                                        startActivity(intent1);
-                                    }
-                                });*/
-                                Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
-                                startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                if(name.length()==0 || phone.length()==0 || email.length()==0 || password.length()==0 || age.length()==0 || phone.length() >=8 || password.length()==6){
+                    Toast.makeText(getApplicationContext(),"Please fill all fields and press register",Toast.LENGTH_LONG).show();
+                }else{
+                    request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            try {
+                                JSONObject jsonobject = new JSONObject(response);
+                                if (jsonobject.names().get(0).equals("success")) {
+                                    Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
+                                    startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                }
+                                if(jsonobject.has("exist")){
+                                    Toast.makeText(getApplicationContext(),""+jsonobject.getString("exist"),Toast.LENGTH_LONG).show();
+                                }
+                                if(jsonobject.has("missingParam")){
+                                    Toast.makeText(getApplicationContext(),""+jsonobject.getString("missingParam"),Toast.LENGTH_LONG).show();
+                                }
+                                if(jsonobject.has("dataError")){
+                                    Toast.makeText(getApplicationContext(),""+jsonobject.getString("dataError"),Toast.LENGTH_LONG).show();
+                                }
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
-                            else{
-
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
                         }
-                    }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
 
-                    }
-                }) {
-                    @Override
-                    protected Map<String, String> getParams() throws AuthFailureError {
-                        HashMap<String, String> hashMap = new HashMap<String, String>();
-                        hashMap.put("name", name.getText().toString());
-                        hashMap.put("phone", phone.getText().toString());
-                        hashMap.put("email", email.getText().toString());
-                        hashMap.put("password", password.getText().toString());
-                        hashMap.put("age", age.getText().toString());
-                        hashMap.put("gender", genderSend);
-                        hashMap.put("driver", driverSend);
+                        }
+                    }) {
+                        @Override
+                        protected Map<String, String> getParams() throws AuthFailureError {
+                            HashMap<String, String> hashMap = new HashMap<String, String>();
+                            hashMap.put("name", name.getText().toString());
+                            hashMap.put("phone", phone.getText().toString());
+                            hashMap.put("email", email.getText().toString());
+                            hashMap.put("password", password.getText().toString());
+                            hashMap.put("age", age.getText().toString());
+                            hashMap.put("gender", genderSend);
+                            hashMap.put("driver", driverSend);
 
-                        return hashMap;
-                    }
-                };
-                requestQueue.add(request);
+                            return hashMap;
+                        }
+                    };
+                    requestQueue.add(request);
+                }
             }
         });
-
     }
-
-
 }

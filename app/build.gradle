@@ -25,11 +25,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+<<<<<<< HEAD
 
     compile 'com.android.support:design:25.1.1'
+=======
+    compile 'com.android.support:design:26.0.0-alpha1'
+>>>>>>> 3d4a61ef4d2d1cc6ee957a4b99c2d134c84094b0
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:26.0.0-alpha1'
     compile 'com.android.support:support-vector-drawable:26.+'
     compile 'com.android.support:support-v4:26.+'
     compile 'com.mcxiaoke.volley:library:1.0.19'
