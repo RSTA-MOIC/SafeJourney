@@ -46,7 +46,10 @@
             android:name=".RegisterSuccess"
             android:label="Register Success" />
         <activity android:name=".FirstAid" />
+<<<<<<< HEAD
         <activity android:name=".Fracture"></activity>
+=======
+>>>>>>> 66cb60498c64804fc9bc705551b883dc0d708deb
     </application>
 
 </manifest>
