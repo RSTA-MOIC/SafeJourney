@@ -9,12 +9,11 @@
     <string name="offline_services">Offline Services</string>
     <string name="password">Password</string>
     <string name="safe_journey">Safe Journey</string>
-    <string name="username_or_email_address">Username or Email Address</string>
+    <string name="username_or_email_address">Username or email</string>
     <string name="no">No</string>
     <string name="fracture">Fracture</string>
     <string name="yes">Yes</string>
-    <string name="quest">Are you a Driver?</string>
-    <string name="agree">Agree to Terms,Conditions and Privacy Policy</string>
+    <string name="quest">Do you have a driving licence?</string>
     <string name="female">Female</string>
     <string name="male">Male</string>
     <string name="register">Register</string>
@@ -128,4 +127,11 @@
     <string name="notifications">Notification</string>
     <string name="settings">Setting</string>
     <string name="textview">TextView</string>
+    <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie...</string>
+    <string name="reg_sucess">You have been sucessfully registered for the RSTA: Safe Journey application!</string>
+    <string name="click_here">Click Here to Login</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="e_mail">e-mail</string>
+    <string name="age">Age</string>
 </resources>
