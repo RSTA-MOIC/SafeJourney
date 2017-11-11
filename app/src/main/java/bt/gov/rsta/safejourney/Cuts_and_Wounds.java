@@ -1,11 +1,13 @@
 package bt.gov.rsta.safejourney;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-public class FirstAid extends AppCompatActivity {
+import android.os.Bundle;
+
+public class Cuts_and_Wounds extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_aid);
+        setContentView(R.layout.activity_cuts_and__wounds);
     }
 }

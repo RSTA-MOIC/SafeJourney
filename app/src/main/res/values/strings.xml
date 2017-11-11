@@ -27,7 +27,7 @@
     <string name="profiles">Profile</string>
     <string name="home">Home</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_emergency">Emergency</string>
     <string name="action_settings">Settings</string>
@@ -127,22 +127,269 @@
     <string name="notifications">Notification</string>
     <string name="settings">Setting</string>
     <string name="textview">TextView</string>
+    <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie...</string>
+    <string name="reg_sucess">You have been successfully registered for the RSTA: Safe Journey application!</string>
 
-    <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie…</string>
-    <string name="reg_sucess">You have been successfully registered for the RSTA\'s Safe Journey application!</string>
+
+
+
     <string name="click_here">Click Here to Login</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone Number</string>
     <string name="e_mail">e-mail</string>
-    <string name="age">Age</string>
+
+    <string name="des">1. DO walk in a straight line down the sidewalk\n
+        2. DON\’T stop randomly on the sidewalk without checking that people are right behind you.\n
+        3. DO stop at crosswalks and pay attention to the signals. Advance/delayed walk signals are there for a reason.\n
+        4. DON\’T jaywalk without looking…pedestrians are killed all the time and it’s not always the drivers fault.\n
+        5. DO pay attention to your surroundings when walking, especially at night and alone\n
+        6. DON\\’T wear headphones and have your music turned up so loud you can’t hear what’s happening on the street; sirens, horns, shouts etc\n
+        7. DO take the time to enjoy your walk even if you are in a hurry…look around and see.\n
+        8. DON\’T cut across the sidewalk to get to a shop or something without looking behind you, you’re possibly walking into the path of someone else continuing to walk straight ahead.\n
+        9. DO smile if you happen to make eye contact with another human being\n
+        10. DON\’T walk into things while you’re head is down looking at your phone…trust me, it happens!\n
+    </string>
+    <string name="four">DO always wear your seat belt.\n
+       1. DO keep children in tested and approved car seats, no matter how much they beg or plead to get out. If you need, take frequent breaks so that little ones can stretch their legs.
+       2. DO review the official rules of the road for your jurisdiction periodically, and follow them always.\n
+       3. DO follow the speed limits.\n
+       4. DO pay attention when you are driving, even if you are familiar with the area. A surprising number of accidents happen only blocks from home!\n
+       5. DO be courteous toward other drivers.\n
+       6. DO give pedestrians the right-of-way in crosswalks.\n
+       7. DO make room for bicycles.\n
+       8. DO pay for your parking tickets or traffic tickets on time, unless you plan to contest them.\n
+       9. DO keep a winter survival kit in your car for bad weather conditions. A good survival kit should contain a cell phone, matches, flares, a working flashlight, food, water, and blankets.\n
+       10. DO make sure that your spare tire is in your car and that you have a working jack.\n
+       11. DO make time for routine preventative maintenance on your car. Breakdowns can be dangerous and costly.\n
+       12. DO plan your route out in advance for long car trips and keep a map or atlas in the car in case you get lost.
+    </string>
+
+
+    <string name="four1">DON\'T drink alcohol and drive, and don\'t get in a car with a driver who has been drinking or using drugs.\n
+       1. DON\'T make assumptions about what other drivers are going to do. Just because someone has their turn signal on does not mean they are actually going to turn. They may be like the rest of us, and have forgotten that it is on!\n
+       2. DON\'T assume that other cars know what you are doing, either. Make sure that you use your turn signals and give yourself, and the cars around you, plenty of room to maneuver.\n
+       3. DON\'T tailgate other cars, pass on shoulders, fail to yield, run stoplights or stop signs (even if no one else seems to be around), or break any other rules of the road on purpose. If you act like you are above the law when you operate a car, you will sooner, rather than later, find out that you are not.\n
+       4. DON\'T play your car stereo so loudly that you are disruptive to others, or so loudly that you are unable to hear train signals or emergency vehicle sirens.\n
+       5. DON\'T talk on your cell phone and drive at the same time. If you need to make or answer a telephone call while you are driving, pull over at a safe place, use the phone, and then resume your journey.\n
+       6. DON\'T engage in other activities, while driving, that distract your attention or reduce your reaction time. Eating, changing clothes, or putting on makeup while driving is dangerous. In some states, if you are caught doing these things while driving you can be cited for "driver inattention" and given a ticket.\n
+       7. DON\'T treat a car like it is a toy. It is not. Don\'t use your car to play chicken, race, or give another car a friendly "tap."\n
+       8. DON\'T let your emotions and frustrations get the best of you. Don\'t engage in road rage, no matter how irritating another driver might be to you.\n
+       9. DON\'T leave valuables in your car, especially in places where they can be seen, no matter where you are parked.</string>
+
+    <string name="two">
+       1. Use strobe lights to remain visible.\n
+       2. Always wear shoes to avoid serious injury in case of imbalance or fail.\n
+       3. Use side view mirror to remain alert of traffic apporaching from the reae.\n
+       4. While traveling at night . One must equipped with a front light that is either a flashing or steady white light that is clearly for atleast 200 meters in front of a vehicles. Avoid using higher beam.\n
+       5. Keep out of a car or vehicles blind spot.\n
+       6. Use Daytime running lights or DRL to improve visibility while traveling using daylight hours.\n
+       7. DO not drink and drive.\n
+       8. Make sure you do not follow a vehicle too close in order to avoid collision; Use the 3 seconds rule.\n
+       9. Always look out for children and elderly on the road.
+    </string>
+    <string name="bicycle">
+        1. Give hand signals inorder to turn right or left and stop.\n
+        2. Wear proper shoes with laces tied properly while riding to avoid injury.\n
+        3. Avoid riding within two meters of the real of a motor vehicle to avoid collision.\n
+        4. Avoid holding onto another moving vehicle as sudden braking can injure you.\n
+        5. Wear bright clothing and reflective gear .\n
+        6. Do not carry things or occupy your hands while cycling.\n
+        7. Your bicycle must be equipped with front real and wheel reflectors remain visible
+
+    </string>
+
 
     <string name="ambulance">Ambulance</string>
 
 
 
+<<<<<<< HEAD
     <string name = "bonef">
 
-        A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
+=======
+    <string name="age">Age</string>
+    <string name="bone1">
+        A break or crack in a bone is called a fracture. \nIn most cases the damage to the bones will be under the skin, which is called a closed fracture, but sometimes bits of the bones can puncture through the skin to become an open fracture.\n
+        In both cases you\'ll need to treat the casualty for shock, even if you can\'t see any blood, the break might have caused some internal bleeding.\n
+        To break a fully grown bone, a huge amount of force is needed. But bones that are still growing are supple and can split, crack or bend quite easily, a bit like a twig.\n
+    </string>
+    <string name="bone2">
+        1. Swelling\n
+        2. Difficult moving\n
+        3. Movement in an unnatural direction\n
+        4. A limb that looks shorter, twisted or bent\n
+        5. A grating noise or feeling\n
+        6. Loss of strength\n
+        7. Shock
+    </string>
+    <string name="bone3">
+        \u2022If it is an open fracture the wound with a sterile dressing and secure it with a bandage. apply pressure around the wound to control ant bleeding.\n
+        \u2022Support the injured body part to stop it from moving. This should ease any pain and prevent any further damage.\n
+        \u2022Once you\'ve done this, call 112 for medical help. While waiting for help to arrive, don\'t move them unless they\'re in immediate danger.
+    </string>
+    <string name="bone4">
+        \u2022Protect the injured are by using bandages to secure it to an injured part of the body to stop it from moving, for example, fractures o the arm can be secured with a sling, and a leg with a fracture can be tied to the uninjured leg.\n
+        \u2022Keep checking the casualty for signs of shock. This does not mean emotional shock, but is a life-threatening condition, often caused by losing blood.\n
+        \u2022If they lose responsiveness at any point, open their airway, check their breathing and prepare to threat someone who\'s become unresponsive.
+    </string>
+    <string name="cut1">
+        \u2022Bleeding in severe\n
+        \u2022You suspect internal bleeding\n
+        \u2022There is an abdominal or chest wound\n
+        \u2022Bleeding can\'t be stopped after 10 minutes of firm and steady preassure\n
+        \u2022Blood spurts out of wound
+    </string>
+    <string name="cut2">
+        \u2022Apply direct pressure on the cut or wound with a clean cloth, tissue or piece of gauze until bleeding stops.\n
+        \u2022If blood soaks through the material, don\'t remove it. Put more cloth or gauze on top of it and continue to apply pressure.\n
+        \u2022If the wound is on the arm or leg raise limb above the heart, if possible, to help slow bleeding.\n
+        \u2022Wash your hands again after giving first aid and before cleaning and dressing the wound.\n
+        \u2022Don not apply a tourniquet unless the bleeding is severe and not stopped with direct pressure.
+    </string>
+    <string name="cut3">
+        \u2022Gently clean with soap and warm water. Try to rinse soap out of wound to prevent irritation.\n
+        \u2022Don\'t use hydrogen peroxide ot iodine, which can damage tissue.
+    </string>
+    <string name="cut4">
+        \u2022Apply antibiotic cream to reduce risk of infection and cover with a sterile bandage.\n
+        \u2022Change the bandage daily to keep the clean and dry.
+    </string>
+    <string name="cut5">
+        \u2022The wound is deep or the edges are jugged or gaping open.\n
+        \u2022The wound is on the person\'s face.\n
+        \u2022The wound has dirt or debris that won\'t come out.\n
+        \u2022The wound shows signs of infection, such as redness, tenderness, or a thick discharge, or if the person runs a fever.\n
+        \u2022The area around the wound feels numb.\n
+        \u2022Red streaks from around the wound.\n
+        \u2022The person has a puncture wound or deep cut ans hasn\'t ahd a tetanus shot in the past five years, or anyone who hasn\'t had  atetanus shot in the past 10 years.
+    </string>
+    <string name="burn1">
+        Burn and scalds are damage to the skin caused by heat. A burn is usually caused by dry heat, like fire,  hot iron, or the sun. A scald is caused by wet heat, like steam or a hot cup of tea.\n
+        You need to be extra careful when treating burns. The longer the burning goes on, the more severe th einjury will be, and the longer it may take to heal. So you need to cool the burn as soon as possible.\n
+        If someone has a severe burn or scald they are likely to suffer from shock, because of the fluid loss, so they will need urgent hospital treatment.
+    </string>
+    <string name="burn2">
+        If you think someone has a burn or scald, there are five key things to look for: \n
+        \u2022Red skin\n
+        \u2022Swelling\n
+        \u2022Blister may form o the skin later on\n
+        \u2022The skin may peel\n
+        \u2022The skin may be white or scorched
+    </string>
+    <string name="burn3">
+        Stop the burning gettingany worse, by moving the casualty away fromthe source of heat.\n
+        Start cooling the burn as quickly as possible. Run it under cool water for at least ten minutes or until th epain feels better. (Don\'t use ice, cream or gel - they can damage tissues and increase risk of infection.)\n
+        Assess how bad the burn is. It is serious if it is:\n
+        1. larger than the size of the casualty\'s hand\n
+        2. on the face, hands or feet\n
+        3. a deep burn
+    </string>
+    <string name="food1">
+        Food poisoning is caused by eating contaminated food. In most cases the food hasn\'t been cooked properly ans is contaminated by bacteria.\n
+        Someone may feel the effects of food poisoning within a few hours, and will often be sick or haave dirrhoea. However, in some cases it take up to three days.\n
+        The effects of food poisoning can make someone feel extremely ill. The most important thing is for you to keep encouraging the person to drink water so they don\'t get dehydrated. Most people will get better without neediing treatment.
+    </string>
+    <string name="food2">
+        If you think somaeone may have food poisoning, these are the five key things to look for:\n
+        1. feeling sick\n
+        2. Vomiting, sometimes bloodstained\n
+        3. Stomach cramps\n
+        4. Diarrhoea\n
+        5. Headache or fever
+    </string>
+    <string name="food3">
+        \u2022If you notice any of these symptoms, tell the person to lie down and rest.\n
+        \u2022Give them plenty of water and a bowl to use in case they are sick.\n
+        \u2022Encourage them to drink as much water as they can, even if they can onlymanage regular small sips. If they have diarrhoea, it iseven more important that they drink water to replace lost fluids.\n
+        \u2022Giving them an oral rehydration  solutin is good to way to replace fluids lost through diarrhoea and vomiting. This solution can replace salt and other minerals which they have lost.. You can buy it in a pharmacy as a sachet which you dissolve in water.\n
+        \u2022If the person gets worse, then advise them to call their doctor or call for emergency medical help.
+    </string>
+    <string name="heat1">
+        Heatstroke is caused by failure of the thermostat inthe brain which regulates the body temperature. If someone has a high fever or has been exposed to heat for a long time, then their body can become dangerously overheated.\n
+        Someone can also get heatstroke after using such as ecstasy.\n
+        Sometimes, people get heatstroke after suffering from heat exhaustion. When someone gets too dehydrated they stop sweating which means their body can\'t cool down anymore, so they develop heatstroke.
+        Heatstroke can develop with little warning, causing unresponsiveness within minutes of someone feeling unwell. Your priority is to cool them as quickly as possible and get them to hospital.
+    </string>
+    <string name="heat2">
+        These are the six key things to look for:\n
+        1. Headache, dizziness and discomfort\n
+        2. Restlessness and confusion\n
+        3. Hot flushed and dry skin\n
+        4. A fast deteriorating in the level of response\n
+        5. A full bounding pulse\n
+        6. Bodu temperature above 40\u00B0C
+    </string>
+    <string name="heat3">
+        \u2022Quickly move them to a cool place and remove their outer clothing but ensure you maintain their dignity.\n
+        \u2022Then call 112 for an ambulance,\n
+        \u2022Wrap them in a cold wet sheet and keep pouring cald water over it until their temperature falls to at least 38\u00B0C. Measure this with a thermometer under their tongue or under their armpit.\n
+        \u2022If you can\'t find a sheet , fan them or sponge them down with water to keep them cool.\n
+        \u2022Once their temperature seems to have gone back to normal, replace the wet sheet with dry sheet.\n
+        \u2022While waiting for help to arrive, keep checking their temperature, as well as their temperature.\n
+        \u2022If they start getting hot again, repeat the cooling process to lower their temperature.\n
+        \u2022If they lose responsiveness at nay point, open their airway, check their breathing and prepare t treat someone who\'s become unresponsive.
+    </string>
+    <string name="faint1">
+        1. Make the person safe\n
+        \t\u2022Lay th eperson flat on his or her back.\n
+        \t\u2022Elevate the person\'s legs to restore blood flow r the brain.\n
+        \t\u2022Loose tight clothing.\n
+        2. Try to receive the person
+        \t\u2022Shake the person vigorously, top briskly, or yell.\n
+        \t\u2022If the person doesn\'t respond, call 112 immediately and start CPR if necessary.
+        \t\u2022If an RED is available, bring it by the person and use it if you have been trained on its use.\n
+        3. Do home care for simple fainting\n
+        \t\u2022If the person is alert. give fruit juice, especially if the person has not eaten in more than 6 hours or has diabetes.\n
+        \t\u2022Stay with the person until he or she is fully recovered.\n
+        4. Call a health care provider
+        See a health care provider right away if the person\n
+        \t\u2022Hit his or her head when fainting.\n
+        \t\u2022Fiants more than once in a month.\n
+        \t\u2022Is pregnant or has a heart condition or other serious illness.\n
+        \t\u2022Experiences unusual symptoms, such as chest pain, shortness of breath, confusion, blurred vision, or difficulty.
+    </string>
+    <string name="cpr1">
+        Administration of artificial respiration is one of the crucial aspects of first aid. The mouth-to-mouth and mouth-to-nose methods described here are simple enough to be mastered by anyone who takes the trouble to practise them before emergency necessites their use. They are also considered by authorities more effective than other techniques.\n
+    </string>
+    <string name="cpr2">
+        What to do:
+        \t1. Stretch out victim onn his back and kneel close to his side. Loosen  any tight clothing around his neck or chest.\n
+        \t2. Remove foreign object if present from victim\'s mouth and throat b finger sweeping. If the patient seems to have water or mucus in his throat or chest. tilit him upside down or on his sideto permit such fluid to run out the mouth.\n
+        \t3. Lift up chin and tilt head back as far as possible. If the head is not tilted, the tongue may block the throat. The tilting procedure should provide an open airway by moving the tongue away from th eback of the throat.\n
+        \t4. Begin the resuscitation immediately. Oinch th enostrils together with the thumb and index finger of the hand that is pressing on the victim\'s forehead. This prevents the loss of air through the nose during resuscitation.\n
+        \t5. Inhale deeply.\n
+        \t6. Place your mouth tightly around the victim\'s mouth and blow into the air passage. Volume is important - deep breath should be used for adults; less for children ; fro infants, gentle puffs should be sufficient. You should start at a high rate and then provide at least one breath every 5 seconds for adults and every 3 seconds for small children. Continue this maneuver so long as their is any pulse or heartbeat.\n
+        \t7. Watch the victim\'s chest. When you see it rise, stop blowing, raise your mouth, turn your head to the side and listen for exhalation.\n
+        \t8. If patient is revived, keep him warm and do not move him until the doctor arrives, or at least for one-half hour.
+    </string>
+    <string name="cpr3">
+        What to do:
+        1. Maintain the backward head-tilt position with the hand on the forehead. Use the other hand to close the mouth.\n
+        2. Open your mouth widely, take a deep breath, seal your mouth tightly round the victim\'s nose.\n
+        3. On the exhalation phase, open the victim\'s mouth to allow air escape.\n
+        When administering mouth-to-nose ventilation to small children or infants, do not make the backward head-tilt as extensive as that for adult or large children.\n
+    </string>
+    <string name="drown1">
+        Instant first aid sholud be given to a person who has been rescued from drowning, along with  immediate medical attention.
+    </string>
+    <string name="drown2">
+        Once the victim\'s is pulled out of the water, amd covered with a blanket, check for hypothermia symptoms. If you find the victim not breathing then instantly starts giving CPR.\n
+        Be cautious when bringing the victim out of water. You don\'t want to hurt his/her spine ro neck. Avoid or turning his/her neck. When giving CPR, make sure to keep the neck and head of the victim stll, even when you\'re moving the person.
+    </string>
+    <string name="drown3">
+        \u2022Don\'t go ahead rescuing the victim by jumping into the water, if you\'re not a trained or a swimmer yourself.\n
+        \u2022Don\'t jump turbulent or rough water.\n
+        \u2022Don\'t jump into ice water. Instead reach to the vitimwith an extended hand or object.
     </string>
 
+    <string name="bonef">
+>>>>>>> bcf94a3b78ae7da44be79ddebc828b989e8aebb2
+        A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
+    </string>
+    <string name="enter_your_email">Please enter your email below</string>
+    <string name="email_reset">You will receive an email\n with instructions to reset your password</string>
+    <string name="submit">Submit</string>
+    <string name="_112">112</string>
+
 </resources>
+

@@ -22,6 +22,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Register" />
         <activity android:name=".OfflineServices" />
@@ -43,8 +44,24 @@
             android:label="@string/title_activity_first_aids"
             android:theme="@style/AppTheme.NoActionBar" />
 
+            android:theme="@style/AppTheme.NoActionBar"></application>
 
-        <activity android:name=".Fracture"/>
-    </application>
+        <activity android:name=".Fracture" />
+        <activity android:name=".Cuts_and_Wounds" />
+        <activity android:name=".Burns" />
+        <activity android:name=".Food" />
+        <activity android:name=".cpr" />
+        <activity android:name=".Fainting" />
+        <activity android:name=".heat" />
+        <activity android:name=".drown"></activity>
 
+        <activity android:name=".Pedestrian" />
+        <activity android:name=".Bicycle" />
+        <activity android:name=".FOURWHEELER" />
+        <activity android:name=".TWO_WHLEER">
+
+
+        </activity>
+        <activity android:name=".Ambulance"></activity>
 </manifest>
+

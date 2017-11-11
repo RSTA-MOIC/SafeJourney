@@ -40,8 +40,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="#000"
                     android:textSize="30sp"
-                    tools:text="Fracture"
-                    android:layout_margin="40dp"
+                    tools:text="Broken Bones \nand Fracture"
+                    android:layout_margin="30dp"
                     android:textStyle="italic"/>
             </TableRow>
 
@@ -58,7 +58,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="20dp"
-                    app:srcCompat="@drawable/ache"
+                    app:srcCompat="@drawable/burn"
                     android:background="#f3ff3300"/>
 
                 <TextView
@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#000"
                     android:textSize="30sp"
-                    tools:text="Bodyache"
+                    tools:text="Burns and\nScalds"
                     android:layout_margin="30dp"
                     android:textStyle="italic"/>
             </TableRow>
@@ -95,7 +95,7 @@
                     android:layout_margin="30dp"
                     android:textColor="#000"
                     android:textSize="30sp"
-                    tools:text="Breathing \n Problem"
+                    tools:text="Artficial\nRespiration"
                     android:textStyle="italic"/>
             </TableRow>
 
@@ -123,7 +123,7 @@
                     android:textColor="#000"
                     android:textSize="30sp"
                     android:textStyle="italic"
-                    tools:text="Cuts and \n Wounds" />
+                    tools:text="Cuts and \nWounds" />
 
             </TableRow>
 
@@ -149,7 +149,88 @@
                     android:layout_height="wrap_content"
                     android:textColor="#000"
                     android:textSize="30sp"
-                    tools:text="Dizzy"
+                    tools:text="Fainting"
+                    android:layout_margin="30dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/food"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Food \nPoisoning"
+                    android:layout_margin="30dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/stroke"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Heatstroke"
+                    android:layout_margin="30dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    app:srcCompat="@drawable/drown"
+                    android:background="#f3ff3300"/>
+
+                <TextView
+                    android:id="@+id/lblListHeader9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    tools:text="Drowning"
                     android:layout_margin="30dp"
                     android:textStyle="italic"/>
             </TableRow>
