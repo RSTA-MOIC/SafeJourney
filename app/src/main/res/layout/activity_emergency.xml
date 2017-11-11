@@ -62,7 +62,7 @@
                     android:layout_marginRight="30dp"
                     android:text="@string/_112"
                     android:textSize="20sp"
-                    android:textColor="#redp"
+                    android:textColor="@color/red"
                     tools:ignore="RtlHardcoded" />
 
             </TableRow>
@@ -108,7 +108,7 @@
                     android:layout_marginRight="30dp"
                     android:text="114"
                     android:textSize="20sp"
-                    android:textColor="#red"
+                    android:textColor="@color/red"
                     tools:ignore="HardcodedText,RtlHardcoded" />
 
 
@@ -140,7 +140,7 @@
                     android:layout_margin="40dp"
                     android:layout_marginBottom="40dp"
                     android:layout_marginTop="40dp"
-                    android:textColor="#000"
+                    android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="italic"
                     tools:text="Police" />
@@ -155,7 +155,7 @@
                     android:layout_marginRight="30dp"
                     android:text="113"
                     android:textSize="20sp"
-                    android:textColor="#red"
+                    android:textColor="@color/red"
                     tools:ignore="HardcodedText,RtlHardcoded" />
             </TableRow>
 

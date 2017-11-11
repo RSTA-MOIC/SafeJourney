@@ -195,10 +195,7 @@
         5. Wear bright clothing and reflective gear .\n
         6. Do not carry things or occupy your hands while cycling.\n
         7. Your bicycle must be equipped with front real and wheel reflectors remain visible
-
     </string>
-
-
     <string name="ambulance">Ambulance</string>
 
 
@@ -381,7 +378,6 @@
     </string>
 
     <string name="bonef">
->>>>>>> bcf94a3b78ae7da44be79ddebc828b989e8aebb2
         A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
     </string>
     <string name="enter_your_email">Please enter your email below</string>
