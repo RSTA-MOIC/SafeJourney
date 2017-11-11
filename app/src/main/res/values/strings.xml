@@ -134,4 +134,8 @@
     <string name="phone_number">Phone Number</string>
     <string name="e_mail">e-mail</string>
     <string name="age">Age</string>
+
+    <string name = "bonef">
+        A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
+    </string>
 </resources>

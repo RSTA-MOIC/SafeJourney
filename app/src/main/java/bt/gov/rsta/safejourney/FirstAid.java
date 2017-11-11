@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class FirstAids extends AppCompatActivity {
+class FirstAids extends AppCompatActivity {
 
 
     @Override
