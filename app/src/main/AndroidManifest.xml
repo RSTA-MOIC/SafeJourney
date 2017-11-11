@@ -35,7 +35,8 @@
         </activity>
 
         <activity
-            android:name=".PasswordReset">
+            android:name=".PasswordReset"
+            android:label="Password Reset">
         </activity>
 
         <activity android:name=".Home"/>
