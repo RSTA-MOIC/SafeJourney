@@ -127,8 +127,9 @@
     <string name="notifications">Notification</string>
     <string name="settings">Setting</string>
     <string name="textview">TextView</string>
-    <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie...</string>
-    <string name="reg_sucess">You have been sucessfully registered for the RSTA: Safe Journey application!</string>
+
+    <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie…</string>
+    <string name="reg_sucess">You have been successfully registered for the RSTA\'s Safe Journey application!</string>
     <string name="click_here">Click Here to Login</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone Number</string>
@@ -161,7 +162,7 @@
     </string>
 
 
-    <string name="four1">DON'T drink alcohol and drive, and don't get in a car with a driver who has been drinking or using drugs.\n
+    <string name="four1">DON\'T drink alcohol and drive, and don\'t get in a car with a driver who has been drinking or using drugs.\n
        1. DON\'T make assumptions about what other drivers are going to do. Just because someone has their turn signal on does not mean they are actually going to turn. They may be like the rest of us, and have forgotten that it is on!\n
        2. DON\'T assume that other cars know what you are doing, either. Make sure that you use your turn signals and give yourself, and the cars around you, plenty of room to maneuver.\n
        3. DON\'T tailgate other cars, pass on shoulders, fail to yield, run stoplights or stop signs (even if no one else seems to be around), or break any other rules of the road on purpose. If you act like you are above the law when you operate a car, you will sooner, rather than later, find out that you are not.\n
@@ -171,7 +172,6 @@
        7. DON\'T treat a car like it is a toy. It is not. Don't use your car to play chicken, race, or give another car a friendly "tap."\n
        8. DON\'T let your emotions and frustrations get the best of you. Don't engage in road rage, no matter how irritating another driver might be to you.\n
        9. DON\'T leave valuables in your car, especially in places where they can be seen, no matter where you are parked.</string>
-    string>
 
     <string name="two">
        1. Use strobe lights to remain visible.\n
@@ -196,4 +196,15 @@
     </string>
 
 
+
+
+    <string name="ambulance">Ambulance</string>
+
+
+
+    <string name = "bonef">
+        A break or crack in a bone is called a fracture. \n In most cases the damage to the bines will be under the skin, \n which is called a closed fracture, but sometimes bits of the bones can \n puncture through the skin to beome an open fracture.\n
+    </string>
+
 </resources>
+

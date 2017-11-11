@@ -11,45 +11,54 @@
         android:roundIcon="@mipmap/ic_launcher1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Register" />
-        <activity android:name=".OfflineServices" />
-        <activity android:name=".PasswordReset" />
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
         <activity
-            android:name=".Home"
-            android:label="@string/title_activity_home" />
-        <activity android:name=".Home1" />
-        <activity android:name=".Profile" />
-        <activity android:name=".Notification" />
-        <activity android:name=".Setting" />
-        android:label="@string/title_activity_home"
-        android:theme="@style/AppTheme" />
-        <activity android:name=".Home1" />
+            android:name=".Register" >
+        </activity>
+
         <activity
-            android:name=".Emergency"
-            android:label="@string/title_activity_emergency"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".OfflineServices" >
+        </activity>
+
+        <activity
+            android:name=".PasswordReset">
+        </activity>
+
+        <activity android:name=".Home"/>
+        <activity android:name=".Home1"/>
+        <activity android:name=".Profile"/>
+        <activity android:name=".Notification"/>
+        <activity android:name=".Setting"/>
+        <activity android:name=".Emergency"/>
         <activity android:name=".Complaint" />
-        <activity android:name=".TrafficOffences" />
-        <activity
-            android:name=".RegisterSuccess"
-            android:label="Register Success" />
+        <activity android:name=".SafetyTips"/>
+        <activity android:name=".RegisterSuccess" android:label="Register Success"/>
+
+
         <activity android:name=".FirstAid" />
         <activity android:name=".Pedestrian" />
         <activity android:name=".Bicycle" />
         <activity android:name=".FOURWHEELER" />
-        <activity android:name=".TWO_WHLEER"></activity>
+        <activity android:name=".TWO_WHLEER">
+
+        </activity>
+
+        <activity android:name=".Fracture"/>
+
     </application>
 
 </manifest>

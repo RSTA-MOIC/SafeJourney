@@ -20,8 +20,8 @@ public class Setting extends AppCompatActivity {
         super.onCreate(savedInstaneState);
         setContentView(R.layout.activity_setting);
 
-        TextView tView1 = (TextView) findViewById(R.id.textTitle1);
-        tView1.setText("This is Home");
+        TextView tView1 = (TextView) findViewById(R.id.textTitle4);
+        tView1.setText("This is Setting");
 
         BottomNavigationView bottomNavigationView_Bar = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView_Bar);
@@ -45,7 +45,7 @@ public class Setting extends AppCompatActivity {
                         startActivity(intent3);
                         break;
 
-                    case R.id.action_settings:
+                    case R.id.navigation_setting:
                         break;
                 }
                 return false;
