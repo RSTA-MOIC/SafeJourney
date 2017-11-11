@@ -34,6 +34,7 @@ public class Home1 extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.navigation_home:
                         Intent intent1 = new Intent(Home1.this, Home.class);
+                        startActivity(intent1);
                         break;
 
                     case R.id.navigation_profile:
@@ -48,6 +49,7 @@ public class Home1 extends AppCompatActivity {
 
                     case R.id.action_settings:
                         Intent intent4 = new Intent(Home1.this, Setting.class);
+                        startActivity(intent4);
                         break;
                 }
                 return false;
