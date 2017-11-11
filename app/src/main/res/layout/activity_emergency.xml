@@ -36,7 +36,7 @@
                     android:layout_height="80dp"
                     android:layout_margin="20dp"
                     android:background="#f3ff3300"
-                    app:srcCompat="@drawable/Ambulance"
+                    app:srcCompat="@drawable/ambulance"
                     tools:ignore="ContentDescription" />
 
                 <TextView
