@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bt.gov.rsta.safejourney.Fracture">
+    tools:context="bt.gov.rsta.safejourney.Fracture"
+    android:background="#000">
 
 
     <ScrollView
@@ -26,7 +27,8 @@
                 android:ems="10"
                 android:text="Broken Bones and Fractures"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText3"
@@ -46,7 +48,8 @@
                 android:layout_marginBottom="15dp"
                 android:ems="10"
                 android:text="@string/bone1"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText5"
@@ -67,7 +70,8 @@
                 android:ems="10"
                 android:text="The seven things to look for are: "
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText7"
@@ -76,7 +80,8 @@
                 android:layout_marginBottom="12dp"
                 android:ems="10"
                 android:text="@string/bone2"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText8"
@@ -96,7 +101,8 @@
                 android:layout_marginBottom="12dp"
                 android:ems="10"
                 android:text="@string/bone3"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText10"
@@ -116,7 +122,8 @@
                 android:layout_marginBottom="20dp"
                 android:ems="10"
                 android:text="@string/bone4"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
         </LinearLayout>
     </ScrollView>

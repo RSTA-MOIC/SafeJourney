@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bt.gov.rsta.safejourney.Fainting">
+    tools:context="bt.gov.rsta.safejourney.Fainting"
+    android:background="#000">
 
     <ScrollView
         android:layout_width="368dp"
@@ -26,7 +27,8 @@
                 android:ems="10"
                 android:text="Fainting"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText3"
@@ -46,7 +48,8 @@
                 android:layout_marginBottom="15dp"
                 android:ems="10"
                 android:text="@string/faint1"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
 
         </LinearLayout>
