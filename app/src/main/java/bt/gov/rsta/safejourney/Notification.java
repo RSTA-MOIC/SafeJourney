@@ -45,6 +45,7 @@ public class Notification extends AppCompatActivity {
 
                     case R.id.action_settings:
                         Intent intent4 = new Intent(Notification.this, Setting.class);
+                        startActivity(intent4);
                         break;
                 }
                 return false;

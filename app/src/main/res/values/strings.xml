@@ -384,6 +384,60 @@
     <string name="email_reset">You will receive an email\n with instructions to reset your password</string>
     <string name="submit">Submit</string>
     <string name="_112">112</string>
+    <string name="bicycle1">BICYCLE</string>
+    <string name="four_wheeler">FOUR WHEELER</string>
+    <string name="pedestrian">PEDESTRIAN</string>
+    <string name="two_wheeler">TWO WHEELER</string>
+    <string name="artificial_n_respiration">Artificial\n Respiration</string>
+    <string name="bones_and_nfracture">Bones \nand Fracture</string>
+    <string name="burn_and_n_scalds">Burn \nand Scalds</string>
+    <string name="cuts_and_n_wounds">Cuts \nand  Wounds</string>
+    <string name="drowning">Drowning</string>
+    <string name="fainting">Fainting</string>
+    <string name="first_aid">First Aid</string>
+    <string name="food_npoisoning">Food \nPoisoning</string>
+    <string name="heatstroke">Heatstroke</string>
+    <string name="emergency">Emergency</string>
+    <string name="connectFail">Call faild, please try again later.</string>
+    <string name="rsta1">
+        To provide and develop safe, reliable, efficient, cost effective and environment friendly transport services in support of strategies for socio-economic development of the country.
+    </string>
+    <string name="rsta2">
+        To Ensure access to safe, sustainable and inclusive transport systems for accelerated socio-economic development.
+    </string>
+    <string name="rsta3">
+        Safe roads saves life!
+    </string>
+    <string name="home1">Home</string>
+    <string name="mission">Mission</string>
+    <string name="rsta">RSTA</string>
+    <string name="safe_journey1">Safe Journey</string>
+    <string name="vision">Vision</string>
+    <string name="first_aid1">First Aid</string>
+    <string name="safety_tips">Safety Tips</string>
+    <string name="bicycle2">Bicycle</string>
+    <string name="four_nwheeler">Four  Wheeler</string>
+    <string name="pedestrian1">Pedestrian</string>
+    <string name="safety_tips2">Safety Tips</string>
+    <string name="two_nwheeler">Two  Wheeler</string>
+    <string name="complaint">Complaint</string>
+    <string name="location">Location</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="heading_to">Heading To:</string>
+    <string name="description">Description</string>
+    <string name="submit1">Submit</string>
+    <string name="do_s_and_dont_s">DO\'s and DONT\'s</string>
+    <string name="pedestrian12">PEDESTRIAN</string>
+    <string-array name="complaintsSelect">
+        <item>Complaint Type</item>
+        <item>Wrong Parking</item>
+        <item>Overloading</item>
+        <item>Accident</item>
+        <item>Hit and Run</item>
+        <item>Triple riding</item>
+        <item>No helmet</item>
+        <item>Drunk drive</item>
+    </string-array>
 
 </resources>
 

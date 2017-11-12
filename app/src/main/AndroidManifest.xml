@@ -3,6 +3,7 @@
     package="bt.gov.rsta.safejourney">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -53,15 +54,10 @@
         <activity android:name=".cpr" />
         <activity android:name=".Fainting" />
         <activity android:name=".heat" />
-        <activity android:name=".drown"></activity>
-
-        <activity android:name=".Pedestrian" />
+        <activitty android:name=".Pedestrian"/>
         <activity android:name=".Bicycle" />
         <activity android:name=".FOURWHEELER" />
-        <activity android:name=".TWO_WHLEER">
-
-
-        </activity>
+        <activity android:name=".TWO_WHLEER"></activity>
         <activity android:name=".Ambulance"></activity>
 </manifest>
 

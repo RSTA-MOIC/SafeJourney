@@ -46,8 +46,6 @@ public class Setting extends AppCompatActivity {
                         break;
 
                     case R.id.navigation_setting:
-                        Intent intent4 = new Intent(Setting.this, Setting.class);
-                        startActivity(intent4);
                         break;
                 }
                 return false;

@@ -42,30 +42,36 @@ public class PasswordReset extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(email.length()==0 || phone.length()==0 || phone.length() >=8){
-                    Toast.makeText(getApplicationContext(),"Please fill all fields and submit",Toast.LENGTH_LONG).show();
+                if(email.length()==0 || phone.length() !=8){
+                    Toast.makeText(getApplicationContext(),"Please fill all fields and press register",Toast.LENGTH_LONG).show();
                 }else{
                     request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
                             try {
                                 JSONObject jsonobject = new JSONObject(response);
-                                if (jsonobject.names().get(0).equals("sent")) {
-                                    Toast.makeText(getApplicationContext(),""+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
-                                    startActivity(new Intent(getApplication(),Home.class));
+                                if (jsonobject.has("success")) {
+                                    Toast.makeText(getApplicationContext(),jsonobject.getString("success"),Toast.LENGTH_LONG).show();
+                                    startActivity(new Intent(getApplication(),MainActivity.class));
                                 }
-                            } catch (JSONException e) {
+                                if(jsonobject.has("error")){
+                                    Toast.makeText(getApplicationContext(),""+jsonobject.getString("error"),Toast.LENGTH_LONG).show();
+                                }
+                            } catch (Exception e) {
                                 e.printStackTrace();
                             }
                         }
                     }, new Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError error) {
+                            startActivity(new Intent(getApplication(),MainActivity.class));
+                            Toast.makeText(getApplicationContext(),"Reset link sent to your email\n",Toast.LENGTH_LONG).show();
                         }
                     }) {
                         @Override
                         protected Map<String, String> getParams() throws AuthFailureError {
                             HashMap<String, String> hashMap = new HashMap<String, String>();
+
                             hashMap.put("phone", phone.getText().toString());
                             hashMap.put("email", email.getText().toString());
 

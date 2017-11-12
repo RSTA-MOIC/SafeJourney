@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -15,15 +17,12 @@ import android.widget.TextView;
 
 public class Home1 extends AppCompatActivity {
 
-    private TextView tView1;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstaneState) {
         super.onCreate(savedInstaneState);
         setContentView(R.layout.activity_home1);
-
-        tView1 = (TextView)findViewById(R.id.textTitle1);
-        tView1.setText("This is Home");
 
         BottomNavigationView bottomNavigationView_Bar = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView_Bar);

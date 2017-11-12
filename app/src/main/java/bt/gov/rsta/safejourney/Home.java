@@ -8,6 +8,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class Home extends AppCompatActivity {
     private SectionPagerAdapter mSectionsPagerAdapter;
 
     private ViewPager mViewPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class Home extends AppCompatActivity {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_complaint_black_24dp);
         tabLayout.getTabAt(2).setIcon(R.drawable.firstaids);
         tabLayout.getTabAt(3).setIcon(R.drawable.safety_icon);
+
 
         BottomNavigationView bottomNavigationView_Bar = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView_Bar);
