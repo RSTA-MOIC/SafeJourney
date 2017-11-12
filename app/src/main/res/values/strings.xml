@@ -138,6 +138,14 @@
     <string name="phone_number">Phone Number</string>
     <string name="e_mail">e-mail</string>
 
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="complaint">Complaint</string>
+    <string name="location">Location</string>
+    <string name="vec_number">Vehicle Number</string>
+    <string name="headingTo">Heading To</string>
+    <string name="description">Describe the incident briefly...</string>
+    <string name="upload">Upload</string>
+
     <string name="des">1. DO walk in a straight line down the sidewalk\n
         2. DON\’T stop randomly on the sidewalk without checking that people are right behind you.\n
         3. DO stop at crosswalks and pay attention to the signals. Advance/delayed walk signals are there for a reason.\n
