@@ -61,23 +61,12 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             JSONObject jsonobject = new JSONObject(response);
                             if (jsonobject.names().get(0).equals("success")) {
-
-                                Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("name"),Toast.LENGTH_LONG).show();
-                                startActivity(new Intent(getApplication(),RegisterSuccess.class));
+                                Toast.makeText(getApplicationContext(),"Welcome\n"+jsonobject.getString("success"),Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(getApplication(),Home.class));
                             }
-                            /*else{
-                                if (jsonobject.names().get(0).equals("loginFail")) {
-
-                                    Toast.makeText(getApplicationContext(),jsonobject.getString("loginFail"),Toast.LENGTH_LONG).show();
-                                    startActivity(new Intent(getApplication(),RegisterSuccess.class));
-                                }
-                                if (jsonobject.names().get(0).equals("paramMissing")) {
-
-                                    Toast.makeText(getApplicationContext(),jsonobject.getString("paramMissing"),Toast.LENGTH_LONG).show();
-                                    startActivity(new Intent(getApplication(),RegisterSuccess.class));
-                                }
-
-                            }*/
+                            if(jsonobject.has("loginFail")){
+                                Toast.makeText(getApplicationContext(),""+jsonobject.getString("loginFail"),Toast.LENGTH_LONG).show();
+                            }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

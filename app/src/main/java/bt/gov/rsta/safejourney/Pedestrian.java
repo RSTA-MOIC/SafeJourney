@@ -3,11 +3,11 @@ package bt.gov.rsta.safejourney;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class TrafficOffences extends AppCompatActivity {
+public class Pedestrian extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_traffic_offences);
+        setContentView(R.layout.activity_pedestrian);
     }
 }

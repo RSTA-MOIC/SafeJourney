@@ -27,7 +27,7 @@
     <string name="profiles">Profile</string>
     <string name="home">Home</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_emergency">Emergency</string>
     <string name="action_settings">Settings</string>
@@ -129,91 +129,87 @@
     <string name="textview">TextView</string>
     <string name="appbar_scrolling_view_behavior">android:support.design.widget.AppBarLayout$ScrollingVie...</string>
     <string name="reg_sucess">You have been successfully registered for the RSTA: Safe Journey application!</string>
+
+
+
+
     <string name="click_here">Click Here to Login</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone Number</string>
     <string name="e_mail">e-mail</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="des">1. DO walk in a straight line down the sidewalk\n
+        2. DON\’T stop randomly on the sidewalk without checking that people are right behind you.\n
+        3. DO stop at crosswalks and pay attention to the signals. Advance/delayed walk signals are there for a reason.\n
+        4. DON\’T jaywalk without looking…pedestrians are killed all the time and it’s not always the drivers fault.\n
+        5. DO pay attention to your surroundings when walking, especially at night and alone\n
+        6. DON\\’T wear headphones and have your music turned up so loud you can’t hear what’s happening on the street; sirens, horns, shouts etc\n
+        7. DO take the time to enjoy your walk even if you are in a hurry…look around and see.\n
+        8. DON\’T cut across the sidewalk to get to a shop or something without looking behind you, you’re possibly walking into the path of someone else continuing to walk straight ahead.\n
+        9. DO smile if you happen to make eye contact with another human being\n
+        10. DON\’T walk into things while you’re head is down looking at your phone…trust me, it happens!\n
+    </string>
+    <string name="four">DO always wear your seat belt.\n
+       1. DO keep children in tested and approved car seats, no matter how much they beg or plead to get out. If you need, take frequent breaks so that little ones can stretch their legs.
+       2. DO review the official rules of the road for your jurisdiction periodically, and follow them always.\n
+       3. DO follow the speed limits.\n
+       4. DO pay attention when you are driving, even if you are familiar with the area. A surprising number of accidents happen only blocks from home!\n
+       5. DO be courteous toward other drivers.\n
+       6. DO give pedestrians the right-of-way in crosswalks.\n
+       7. DO make room for bicycles.\n
+       8. DO pay for your parking tickets or traffic tickets on time, unless you plan to contest them.\n
+       9. DO keep a winter survival kit in your car for bad weather conditions. A good survival kit should contain a cell phone, matches, flares, a working flashlight, food, water, and blankets.\n
+       10. DO make sure that your spare tire is in your car and that you have a working jack.\n
+       11. DO make time for routine preventative maintenance on your car. Breakdowns can be dangerous and costly.\n
+       12. DO plan your route out in advance for long car trips and keep a map or atlas in the car in case you get lost.
+    </string>
+
+
+    <string name="four1">DON\'T drink alcohol and drive, and don\'t get in a car with a driver who has been drinking or using drugs.\n
+       1. DON\'T make assumptions about what other drivers are going to do. Just because someone has their turn signal on does not mean they are actually going to turn. They may be like the rest of us, and have forgotten that it is on!\n
+       2. DON\'T assume that other cars know what you are doing, either. Make sure that you use your turn signals and give yourself, and the cars around you, plenty of room to maneuver.\n
+       3. DON\'T tailgate other cars, pass on shoulders, fail to yield, run stoplights or stop signs (even if no one else seems to be around), or break any other rules of the road on purpose. If you act like you are above the law when you operate a car, you will sooner, rather than later, find out that you are not.\n
+       4. DON\'T play your car stereo so loudly that you are disruptive to others, or so loudly that you are unable to hear train signals or emergency vehicle sirens.\n
+       5. DON\'T talk on your cell phone and drive at the same time. If you need to make or answer a telephone call while you are driving, pull over at a safe place, use the phone, and then resume your journey.\n
+       6. DON\'T engage in other activities, while driving, that distract your attention or reduce your reaction time. Eating, changing clothes, or putting on makeup while driving is dangerous. In some states, if you are caught doing these things while driving you can be cited for "driver inattention" and given a ticket.\n
+       7. DON\'T treat a car like it is a toy. It is not. Don\'t use your car to play chicken, race, or give another car a friendly "tap."\n
+       8. DON\'T let your emotions and frustrations get the best of you. Don\'t engage in road rage, no matter how irritating another driver might be to you.\n
+       9. DON\'T leave valuables in your car, especially in places where they can be seen, no matter where you are parked.</string>
+
+    <string name="two">
+       1. Use strobe lights to remain visible.\n
+       2. Always wear shoes to avoid serious injury in case of imbalance or fail.\n
+       3. Use side view mirror to remain alert of traffic apporaching from the reae.\n
+       4. While traveling at night . One must equipped with a front light that is either a flashing or steady white light that is clearly for atleast 200 meters in front of a vehicles. Avoid using higher beam.\n
+       5. Keep out of a car or vehicles blind spot.\n
+       6. Use Daytime running lights or DRL to improve visibility while traveling using daylight hours.\n
+       7. DO not drink and drive.\n
+       8. Make sure you do not follow a vehicle too close in order to avoid collision; Use the 3 seconds rule.\n
+       9. Always look out for children and elderly on the road.
+    </string>
+    <string name="bicycle">
+        1. Give hand signals inorder to turn right or left and stop.\n
+        2. Wear proper shoes with laces tied properly while riding to avoid injury.\n
+        3. Avoid riding within two meters of the real of a motor vehicle to avoid collision.\n
+        4. Avoid holding onto another moving vehicle as sudden braking can injure you.\n
+        5. Wear bright clothing and reflective gear .\n
+        6. Do not carry things or occupy your hands while cycling.\n
+        7. Your bicycle must be equipped with front real and wheel reflectors remain visible
+
+    </string>
+
+
+
+
+    <string name="ambulance">Ambulance</string>
 
 
 
 
     <string name="age">Age</string>
     <string name="bone1">
-        A break or crack in a bone is called a fracture. \nIn most cases the damage to the bines will be under the skin, which is called a closed fracture, but sometimes bits of the bones can puncture through the skin to become an open fracture.\n
-        In both cases you\'ll need to treat the casualty for shock, even if you can't see any blood, the break might have caused some internal bleeding.\n
+        A break or crack in a bone is called a fracture. \nIn most cases the damage to the bones will be under the skin, which is called a closed fracture, but sometimes bits of the bones can puncture through the skin to become an open fracture.\n
+        In both cases you\'ll need to treat the casualty for shock, even if you can\'t see any blood, the break might have caused some internal bleeding.\n
         To break a fully grown bone, a huge amount of force is needed. But bones that are still growing are supple and can split, crack or bend quite easily, a bit like a twig.\n
     </string>
     <string name="bone2">
@@ -228,18 +224,18 @@
     <string name="bone3">
         \u2022If it is an open fracture the wound with a sterile dressing and secure it with a bandage. apply pressure around the wound to control ant bleeding.\n
         \u2022Support the injured body part to stop it from moving. This should ease any pain and prevent any further damage.\n
-        \u2022Once you've done this, call 112 for medical help. While waiting for help to arrive, don't move them unless they're in immediate danger.
+        \u2022Once you\'ve done this, call 112 for medical help. While waiting for help to arrive, don\'t move them unless they\'re in immediate danger.
     </string>
     <string name="bone4">
-        \u2022Protect the injured are by using bandages to secure it to an injured part of the body t ostop it from moving, for example, fractures o the arm can be secured with a sling, and a leg with a fracture can be tied to the uninjured leg.\n
+        \u2022Protect the injured are by using bandages to secure it to an injured part of the body to stop it from moving, for example, fractures o the arm can be secured with a sling, and a leg with a fracture can be tied to the uninjured leg.\n
         \u2022Keep checking the casualty for signs of shock. This does not mean emotional shock, but is a life-threatening condition, often caused by losing blood.\n
-        \u2022If they lose responsiveness at any point, open their airway, check their breathing and prepare to threat someone who's become unresponsive.
+        \u2022If they lose responsiveness at any point, open their airway, check their breathing and prepare to threat someone who\'s become unresponsive.
     </string>
     <string name="cut1">
         \u2022Bleeding in severe\n
         \u2022You suspect internal bleeding\n
         \u2022There is an abdominal or chest wound\n
-        \u2022Bleeding can't be stopped after 10 minutes of firm and steady preassure\n
+        \u2022Bleeding can\'t be stopped after 10 minutes of firm and steady preassure\n
         \u2022Blood spurts out of wound
     </string>
     <string name="cut2">
@@ -251,7 +247,7 @@
     </string>
     <string name="cut3">
         \u2022Gently clean with soap and warm water. Try to rinse soap out of wound to prevent irritation.\n
-        \u2022Don't use hydrogen peroxide ot iodine, which can damage tissue.
+        \u2022Don\'t use hydrogen peroxide ot iodine, which can damage tissue.
     </string>
     <string name="cut4">
         \u2022Apply antibiotic cream to reduce risk of infection and cover with a sterile bandage.\n
@@ -384,4 +380,9 @@
         \u2022Don\'t jump turbulent or rough water.\n
         \u2022Don\'t jump into ice water. Instead reach to the vitimwith an extended hand or object.
     </string>
+    <string name="enter_your_email">Please enter your email below</string>
+    <string name="email_reset">You will receive an email\n with instructions to reset your password</string>
+    <string name="submit">Submit</string>
+
 </resources>
+
