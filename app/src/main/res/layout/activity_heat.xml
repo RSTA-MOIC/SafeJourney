@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bt.gov.rsta.safejourney.heat">
+    tools:context="bt.gov.rsta.safejourney.heat"
+    android:background="#000">
 
 
     <ScrollView
@@ -26,7 +27,8 @@
                 android:ems="10"
                 android:text="Heatstroke"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText3"
@@ -46,7 +48,8 @@
                 android:layout_marginBottom="15dp"
                 android:ems="10"
                 android:text="@string/heat1"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText5"
@@ -66,7 +69,8 @@
                 android:layout_marginBottom="12dp"
                 android:ems="10"
                 android:text="@string/heat2"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/editText8"
@@ -86,7 +90,8 @@
                 android:layout_marginBottom="12dp"
                 android:ems="10"
                 android:text="@string/heat3"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
